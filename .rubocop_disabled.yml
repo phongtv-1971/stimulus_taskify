@@ -1,0 +1,196 @@
+# These are all the cops that are disabled in the default configuration.
+# encrypt email function uses dynamic finder method, so disabling this check
+# TODO faced rubocop bug https://github.com/bbatsov/rubocop/issues/4751
+Style/InlineComment:
+  Description: "Avoid inline comments."
+  Enabled: false
+
+Style/MethodCalledOnDoEndBlock:
+  Description: "Avoid chaining a method call on a do...end block."
+  Enabled: false
+
+Style/SymbolArray:
+  Description: "Use %i or %I for arrays of symbols."
+  Enabled: false
+
+Style/Documentation:
+  Description: "Document classes and non-namespace modules."
+  Enabled: false
+
+Layout/EmptyLinesAroundAccessModifier:
+  Description: "Keep blank lines around access modifiers."
+  Enabled: false
+
+Style/EmptyLiteral:
+  Description: "Prefer literals to Array.new/Hash.new/String.new."
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Description: "Checks style of children classes and modules."
+  Enabled: false
+
+Metrics/ClassLength:
+  Description: "Avoid classes longer than 100 lines of code."
+  Enabled: false
+
+Metrics/MethodLength:
+  Description: "Avoid methods longer than 10 lines of code."
+  Enabled: false
+
+Metrics/ParameterLists:
+  Description: "Avoid parameter lists longer than three or four parameters."
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Description: "Avoid complex methods."
+  Enabled: false
+
+Style/RedundantPercentQ:
+  Description: "Checks for %q/%Q when single quotes or double quotes would do."
+  Enabled: false
+
+Naming:
+  Description: Check the naming of accessor methods for get_/set_.
+  Enabled: false
+
+#################### Lint ################################
+### Warnings
+Lint/AssignmentInCondition:
+  Description: "Don't use assignment in conditions."
+  Enabled: false
+
+Metrics/ModuleLength:
+  Enabled: false
+
+Style/HashEachMethods:
+  Description: "Use Hash#each_key and Hash#each_value."
+  Enabled: false
+
+Style/HashTransformKeys:
+  Description: "Prefer `transform_keys` over `each_with_object` and `map`."
+  Enabled: false
+
+Style/HashTransformValues:
+  Description: "Prefer `transform_values` over `each_with_object` and `map`."
+  Enabled: false
+
+Lint/MissingSuper:
+  Enabled: false
+
+Style/HashLikeCase:
+  Enabled: false
+
+Gemspec/DateAssignment:
+  Enabled: false
+Gemspec/RequireMFA:
+  Enabled: false
+Layout/LineEndStringConcatenationIndentation:
+  Enabled: false
+Layout/SpaceBeforeBrackets:
+  Enabled: false
+Lint/AmbiguousAssignment:
+  Enabled: false
+Lint/AmbiguousOperatorPrecedence:
+  Enabled: false
+Lint/AmbiguousRange:
+  Enabled: false
+Lint/DeprecatedConstants:
+  Enabled: false
+Lint/DuplicateBranch:
+  Enabled: false
+Lint/DuplicateRegexpCharacterClassElement:
+  Enabled: false
+Lint/EmptyBlock:
+  Enabled: false
+Lint/EmptyClass:
+  Enabled: false
+Lint/EmptyInPattern:
+  Enabled: false
+Lint/IncompatibleIoSelectWithFiberScheduler:
+  Enabled: false
+Lint/LambdaWithoutLiteralBlock:
+  Enabled: false
+Lint/NoReturnInBeginEndBlocks:
+  Enabled: false
+Lint/NumberedParameterAssignment:
+  Enabled: false
+Lint/OrAssignmentToConstant:
+  Enabled: false
+Lint/RedundantDirGlobSort:
+  Enabled: false
+Lint/RefinementImportMethods:
+  Enabled: false
+Lint/RequireRelativeSelfPath:
+  Enabled: false
+Lint/SymbolConversion:
+  Enabled: false
+Lint/ToEnumArguments:
+  Enabled: false
+Lint/TripleQuotes:
+  Enabled: false
+Lint/UnexpectedBlockArity:
+  Enabled: false
+Lint/UnmodifiedReduceAccumulator:
+  Enabled: false
+Lint/UselessRuby2Keywords:
+  Enabled: false
+Security/CompoundHash:
+  Enabled: false
+Security/IoMethods:
+  Enabled: false
+Style/ArgumentsForwarding:
+  Enabled: false
+Style/CollectionCompact:
+  Enabled: false
+Style/DocumentDynamicEvalDefinition:
+  Enabled: false
+Style/EndlessMethod:
+  Enabled: false
+Style/EnvHome:
+  Enabled: false
+Style/FetchEnvVar:
+  Enabled: false
+Style/FileRead:
+  Enabled: false
+Style/FileWrite:
+  Enabled: false
+Style/HashConversion:
+  Enabled: false
+Style/HashExcept:
+  Enabled: false
+Style/IfWithBooleanLiteralBranches:
+  Enabled: false
+Style/InPatternThen:
+  Enabled: false
+Style/MapToHash:
+  Enabled: false
+Style/MultilineInPatternThen:
+  Enabled: false
+Style/NegatedIfElseCondition:
+  Enabled: false
+Style/NestedFileDirname:
+  Enabled: false
+Style/NilLambda:
+  Enabled: false
+Style/NumberedParameters:
+  Enabled: false
+Style/NumberedParametersLimit:
+  Enabled: false
+Style/ObjectThen:
+  Enabled: false
+Style/OpenStructUse:
+  Enabled: false
+Style/QuotedSymbols:
+  Enabled: false
+Style/RedundantArgument:
+  Enabled: false
+Style/RedundantInitialize:
+  Enabled: false
+Style/RedundantSelfAssignmentBranch:
+  Enabled: false
+Style/SelectByRegexp:
+  Enabled: false
+Style/StringChars:
+  Enabled: false
+Style/SwapValues:
+  Enabled: false
